@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.Title {
+  font-size: x-large;
+  color: rgb(145, 44, 44);
+  font-family: sans-serif;
+}
+
+.Menu, .Quiz , .End{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(145, 56, 167);
+  color:aliceblue;
+  border-radius: 10px;
+}
+
+.Menu button, .Quiz button, .End button {
+  width: 350px;
+  height: 75px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Menu button:hover, .Quiz button:hover, .End button:hover {
+  background-color:#23a5a5;
+  transition: 0.3s;
+}
+
+.option {
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
